@@ -1,0 +1,15 @@
+{
+	"name": "adfMIgrationProject13July2026",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2b6bcf1d-2d98-4a44-ab4a-690f10d43326",
+		"tenantId": "dfc4538b-6e24-40cd-adf2-7645e017511c"
+	}
+}

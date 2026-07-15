@@ -1,0 +1,13 @@
+{
+	"name": "SHIRintegrationRuntime",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "I am sharing existing IR and copying the old ADF resource id here.",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/121ff561-c007-4ac2-a95a-15f57918f90c/resourcegroups/rg-Ritika-dev/providers/Microsoft.DataFactory/factories/adf-ritika-dev/integrationruntimes/SHIRintegrationRuntime",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}
