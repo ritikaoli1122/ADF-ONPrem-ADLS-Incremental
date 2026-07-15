@@ -1,0 +1,54 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfMIgrationProject13July2026"
+		},
+		"LS_LKUP_MAX_VALUE_password": {
+			"value": ""
+		},
+		"LS_OnPrem_SqlServer_DW_password": {
+			"value": ""
+		},
+		"LS_SQLSERVER_TableLookUp_password": {
+			"value": ""
+		},
+		"LS_SQLTable_Parquet_accountKey": {
+			"value": ""
+		},
+		"LS_LKUP_MAX_VALUE_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"LS_LKUP_MAX_VALUE_properties_typeProperties_database": {
+			"value": "retaildw_dev"
+		},
+		"LS_LKUP_MAX_VALUE_properties_typeProperties_userName": {
+			"value": "ritika"
+		},
+		"LS_OnPrem_SqlServer_DW_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"LS_OnPrem_SqlServer_DW_properties_typeProperties_database": {
+			"value": "retaildw_dev"
+		},
+		"LS_OnPrem_SqlServer_DW_properties_typeProperties_userName": {
+			"value": "ritika"
+		},
+		"LS_SQLSERVER_TableLookUp_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"LS_SQLSERVER_TableLookUp_properties_typeProperties_database": {
+			"value": "retaildw_dev"
+		},
+		"LS_SQLSERVER_TableLookUp_properties_typeProperties_userName": {
+			"value": "ritika"
+		},
+		"LS_SQLTable_Parquet_properties_typeProperties_url": {
+			"value": "https://adlsritikaoli.dfs.core.windows.net/"
+		},
+		"SHIRintegrationRuntime_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/121ff561-c007-4ac2-a95a-15f57918f90c/resourcegroups/rg-Ritika-dev/providers/Microsoft.DataFactory/factories/adf-ritika-dev/integrationruntimes/SHIRintegrationRuntime"
+		}
+	}
+}
